@@ -5,6 +5,20 @@ Documentación oficial: [Lodash](https://lodash.com/docs/4.17.15)
 ## Introducción
 Lodash es una biblioteca de JavaScript que proporciona una amplia variedad de funciones de utilidad para tareas de programación comunes, facilitando la manipulación de arrays, objetos, cadenas, y otros tipos de datos. Lodash está diseñado siguiendo el paradigma de la programación funcional, lo que permite escribir código más limpio, modular y mantenible.
 
+## Instalación
+- [Documentación](https://lodash.com/)
+- [CDN (Instalar desde html)](https://www.jsdelivr.com/package/npm/lodash)
+- [NPM](https://www.npmjs.com/package/lodash)
+
+```
+! Si estás usando algún framework puedes importar solo el módulo/método que necesites para no importar toda la biblioteca.
+```
+
+Por ejemplo, si quieres solo importar el método `merge` en tu proyecto React:
+```
+npm i --save lodash.merge
+```
+
 ## UniqBy
 Crea una matriz sin duplicados, permitiéndote especificar un criterio para determinar la unicidad de los elementos. Es especialmente útil para eliminar duplicados en arrays de objetos basados en una propiedad específica.
 
